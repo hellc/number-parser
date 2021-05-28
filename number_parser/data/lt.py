@@ -1,6 +1,7 @@
 info = {
     "UNIT_NUMBERS": {
         "nulis": 0,
+        "tūkstančių": 0,
         "viena": 1,
         "vienas": 1,
         "du": 2,

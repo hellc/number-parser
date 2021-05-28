@@ -1,8 +1,12 @@
 info = {
     "UNIT_NUMBERS": {
         "nul": 0,
+        "nulste": 0,
         "een": 1,
+        "eerste": 1,
         "twee": 2,
+        "tweede": 2,
+        "derde": 3,
         "drie": 3,
         "vier": 4,
         "vijf": 5,

@@ -1,8 +1,12 @@
 info = {
     "UNIT_NUMBERS": {
         "nul": 0,
+        "nulste": 0,
         "een": 1,
+        "eerste": 1,
         "twee": 2,
+        "tweede": 2,
+        "derde": 3,
         "drie": 3,
         "vier": 4,
         "vyf": 5,
@@ -26,6 +30,7 @@ info = {
     "TENS": {},
     "HUNDREDS": {},
     "BIG_POWERS_OF_TEN": {
+        "duisend": 1000,
         "miljoen": 1000000,
         "miljard": 1000000000,
         "biljoen": 1000000000000,

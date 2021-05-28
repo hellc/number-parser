@@ -17,7 +17,7 @@ TARGET_PATH = "../number_parser/data/"
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
-VALID_KEYS = ["spellout-cardinal", "spellout-numbering"]
+VALID_KEYS = ["spellout"]
 INVALID_KEYS = ["cents"]
 CAPTURE_BRACKET_CONTENT = r'\{(.*?)\}'
 REQUIRED_NUMBERS_DATA = ["UNIT_NUMBERS", "DIRECT_NUMBERS", "TENS", "HUNDREDS", "BIG_POWERS_OF_TEN"]
@@ -26,9 +26,8 @@ REQUIRED_NUMBERS_DATA = ["UNIT_NUMBERS", "DIRECT_NUMBERS", "TENS", "HUNDREDS", "
 def _is_valid(key):
     """Identifying whether the given key of the source language file needs to be extracted."""
     is_valid = False
-    for valid_key in VALID_KEYS:
-        if valid_key in key:
-            is_valid = True
+    if "spellout" in key:
+        is_valid = True
     for invalid_key in INVALID_KEYS:
         if invalid_key in key:
             is_valid = False

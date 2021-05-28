@@ -1,8 +1,11 @@
 info = {
     "UNIT_NUMBERS": {
         "sifuri": 0,
+        "wa sifuri": 0,
+        "kwanza": 1,
         "moja": 1,
         "mbili": 2,
+        "pili": 2,
         "tatu": 3,
         "nne": 4,
         "tano": 5,

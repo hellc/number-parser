@@ -2,9 +2,12 @@ info = {
     "UNIT_NUMBERS": {
         "không": 0,
         "một": 1,
+        "thứ nhất": 1,
         "hai": 2,
+        "thứ nhì": 2,
         "ba": 3,
         "bốn": 4,
+        "thứ tư": 4,
         "năm": 5,
         "sáu": 6,
         "bảy": 7,

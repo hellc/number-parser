@@ -1,6 +1,8 @@
 info = {
     "UNIT_NUMBERS": {
+        "kekosong": 0,
         "kosong": 0,
+        "pertama": 1,
         "satu": 1,
         "dua": 2,
         "tiga": 3,
